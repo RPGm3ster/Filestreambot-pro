@@ -77,7 +77,7 @@ async def start(b, m):
     await StreamBot.send_photo(
         chat_id=m.chat.id,
         photo ="https://telegra.ph/file/ca10e459bc6f48a4ad0f7.jpg",
-        caption =f'مرحبا {m.from_user.mention(style="md")}!,\nانا بوت تشغيل ومشاهدة الفيديوهات بسرعة فائقةt.\nارسل ملف المحاضرة الى البوت لتحصل على رابط التشغيل.!',
+        caption =f'مرحبا {m.from_user.mention(style="md")}!,\nانا بوت تشغيل ومشاهدة الفيديوهات بسرعة فائقة.\nارسل ملف المحاضرة الى البوت لتحصل على رابط التشغيل.!',
         reply_markup=buttonz)
 
 
