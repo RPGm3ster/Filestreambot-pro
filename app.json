@@ -80,32 +80,57 @@
           "value": "True",
           "required": false
       },
-       "MY_PASS": {
-          "description": "Leave empty if dont need password else enter Your Password",
-          "value": "None",
-          "required": false
-      },
       "BIND_ADRESS": {
+
           "description": "Read the readme for more info about this var  Leave Empty  For heroku",
+
           "required": false
+
       },
+
       "FQDN": {
+
           "description": "Read the readme for more info about this var  **Leave Empty for heroku**",
+
           "required": false
+
       },
+
       "name": {
+
           "description": " Session Name for Bot [ Add adarsh-goel]",
+
           "value": "File-To-Link",
+
           "required": false
+
       }
+
   },
+
   "buildpacks": [{
+
       "url": "heroku/python"
+
     }],
+
   "formation": {
+
       "web": {
+
           "quantity": 1,
+
           "size": "free"
+
       }
+
   }
+
 }
+
+
+
+
+
+
+      
