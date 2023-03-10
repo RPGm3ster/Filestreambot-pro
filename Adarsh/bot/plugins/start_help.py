@@ -25,7 +25,7 @@ if MY_PASS:
 else:
             buttonz=ReplyKeyboardMarkup(
             [
-                ["login⚡️"],
+                ["start⚡️"],
                 ["ping📡","status📊"]
                         
             ],
