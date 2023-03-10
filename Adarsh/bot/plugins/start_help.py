@@ -25,8 +25,8 @@ if MY_PASS:
 else:
             buttonz=ReplyKeyboardMarkup(
             [
-                ["start⚡️","DC"],
-                ["ping📡","status📊"]
+                ["تشغيل⚡️"],
+                ["سرعة الاتصال📡","الوضع الحالي📊"]
                         
             ],
             resize_keyboard=True
